@@ -1,0 +1,86 @@
+"""
+-------------------------------------------------------
+Lab/Assignment  Testing
+-------------------------------------------------------
+Author:  Mohamed Aldakhil
+ID:      169072233
+Email:   alda2233@mylaurier.ca
+Version: 2023-09-10
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+Enter a day number (1-7): 2
+Monday
+
+Enter a day number (1-7): 7
+Saturday
+
+Enter a day number (1-7): 5
+Thursday
+
+
+-------------------------------------------------------
+t04
+-------------------------------------------------------
+Enter the number of values to generate: 3
+Enter the low value range: 0
+Enter the high value range (must be greater than the low value): 100
+[99, 32, 35]
+
+Enter the number of values to generate: 0 
+Enter the low value range: 0
+Enter the high value range (must be greater than the low value): 0
+[]
+
+Enter the number of values to generate: 20
+Enter the low value range: 3
+Enter the high value range (must be greater than the low value): 8
+[4, 8, 4, 4, 6, 3, 5, 8, 5, 7, 7, 4, 5, 5, 5, 5, 3, 3, 7, 4]
+
+
+-------------------------------------------------------
+t06
+-------------------------------------------------------
+Enter values separated by spaces: 94 96 -22 -79 -28 -26 -50 71 24 -32
+Statistics: (-79.0, 96.0, 48.0, 4.8)
+
+Enter values separated by spaces: 45 6 78
+Statistics: (6.0, 78.0, 129.0, 43.0)
+
+Enter values separated by spaces: 0 0 0
+Statistics: (0.0, 0.0, 0.0, 0.0)
+
+-------------------------------------------------------
+t08
+-------------------------------------------------------
+Enter values separated by spaces: 94 96 -22 -79 -28 -26 -50 71 24 -32
+Enter the value to search: -22
+2
+
+Enter values separated by spaces: 3 6 8
+Enter the value to search: 9
+-1
+
+Enter values separated by spaces: 0 0 
+Enter the value to search: 3
+-1
+
+
+
+-------------------------------------------------------
+t10
+-------------------------------------------------------
+Enter values separated by spaces: 94 96 -32 -19 -28 96 -22 71 24 -32
+[2, 9]
+
+Enter values separated by spaces: 6 8 3 -5
+[3]
+
+Enter values separated by spaces: 0 0 0
+[0, 1, 2]
+
+
+-------------------------------------------------------
+
